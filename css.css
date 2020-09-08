@@ -1,0 +1,68 @@
+/*Ashutosh Kumar (A - 014) */
+
+* {
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    min-width: 300px;
+  }
+  
+  body {
+    margin: 0 0;
+    padding: 0;
+  }
+  
+  .header {
+    width: 100%;
+    text-align: center;
+    margin: 0 0;
+    background: #15317E;
+    height: 80px;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+    font-size: 40px;
+    font-weight: 800;
+  }
+
+  .btn-group {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      width: 75%;
+  }
+
+  .alignit {
+      display: block;
+      margin: auto;
+      text-align: center;
+  }
+
+  .btn {
+      background: white;
+      color: royalblue;
+      border: 2px solid royalblue;
+      border-radius: 10px;
+  }
+
+  .dropdown-menu {
+      width: 100%;
+      max-height: 300px;
+      overflow-y: auto;
+  }
+
+  .main {
+      text-align: center;
+  }
+
+  .main h1 {
+      margin-top: 30px;
+  }
+
+  .onchoose {
+      display: none;
+  }
